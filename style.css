@@ -6,7 +6,7 @@ html{
     background-color: black;
     margin-right: auto;
     margin-left:auto;
-    width: 800px;
+    width: 950px;
     color: white;
     font-family: Verdana,Helvetica, sans-serif;
 }
@@ -66,7 +66,7 @@ a{
 .top-part1>.title{
     text-shadow: 3px 3px 5px rgb(209, 209, 209);
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -87,14 +87,45 @@ a{
     align-items: center;
 }
 
+.mid-part{
+    color: black;
+    height: 250px;
+    background-color: white;
+    margin-top: 50px;
+    padding: 30px;
+}
 
+.mid-part>.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px rgb(209, 209, 209);
 
+}
+.vids{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vidsdesc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middesc{
+    width: 200px;
+    text-align: center;
+}
+
+.midvid{
+
+}
 
 .footer{
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-top: auto;
+    margin-top: 50px;
     color: white;
 }
