@@ -117,8 +117,25 @@ a{
     text-align: center;
 }
 
-.midvid{
+.quotecont{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(207, 204, 204);
+    color: black;
+}
 
+.quotetext{
+    font-style: italic;
+    font-size:21px;
+}
+
+.quoteauthor{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .footer{
